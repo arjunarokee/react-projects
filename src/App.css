@@ -1,33 +1,310 @@
-.App {
-  text-align: center;
+body{
+  background-color: #f5536f;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.direction-changer{
   display: flex;
-  flex-direction: column;
+  background-color: #f5536f;
+}
+.create-space{
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+}
+.margin-logo{
+  margin-left: 20px;
+}
+.globe-icon{
+  position: relative;
+  margin-top: 23px;
+  margin-right: -17px;
+}
+.create-margin{
+  margin: 20px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.create-margin-right{
+  margin-right: 20px;
+}
+.button{
+  border-radius: 30px;
+  padding: 0 25px;
+  background-color: #f5536f;
+  border-color: white;
+  color: white;
+}
+.left-card{
+  position: relative;
+    margin-left: 125px;
+    margin-top: 100px;
+    margin-right: 200px;
+    position: relative;
+    margin-left: 125px;
 }
 
+.right-card{
+  margin-right: 139px;
+    margin-top: 24px;
+    font-size: 22px;
+    margin-top: 10px;
+    color: white;
+}
+.button-body{
+  border-radius: 30px;
+  padding: 20px 45px;
+  background-color: #583bb6;
+  border-color: #583bb6;
+  color: white;
+}
+.about{
+  margin-left: 48px;
+}
+.container{
+  background-color: #f5536f;
+  margin-top: 50px;
+}
+.section{
+  background-color: white;
+  align-items: center;
+  height: 943px;
+}
+.text{
+  margin-left: 405px;
+}
+.content{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 48px;
+    font-weight: 550;
+    margin-left: 346px;
+    padding-top: 70px;
+}
+.content-2{
+  margin-left: 415px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 460px;
+    padding: 12px;
+    border: 1px solid #dde1e6;
+    border-radius: 8px;
+}
+.violet{
+  font-weight: 700;
+    color: #583bb6;
+    margin-left: 622px;
+}
+.space{
+  margin-left: 464px;
+  margin-top: 0;
+}
+.container-2{
+  background-color: #f5f8fb;
+  margin-top: 0px;
+    height: 590px;
+}
+.space-2{
+  margin-left: 500px;
+}
+.space-3{
+  margin-left: 543px;
+}
+.client{
+  display: flex;
+  margin-left: 580px;
+}
+.color{
+  color: #f5536f;
+  font-size: 16px;
+    font-weight: 450;
+  text-decoration: underline;
+  text-decoration-color: #f5536f;
+}
+.tech{
+  margin-left: 54px; 
+  font-size: 16px;
+    font-weight: 400;
+    color: #474b4f;
+}
+.parts{
+  display: flex;
+  /* background-color: white; */
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 10rem 10rem 10rem;
+  grid-gap: 1rem;
+}
+.imag-cont{
+  display: flex;
+  margin-top: 280px;
+  background-color: white;
+}
+.btn{
+  padding: 18px 40px;
+    border-width: 0;
+    font-size: 12px;
+    background-color: #fa2356;
+    border-color: #fa2356;
+    color: #fff;
+    border-radius: 30px;
+    margin-left: 112px;
+    margin-top: 31px;
+}
+.img-head{
+  margin-left: 111px;
+  font-size: 50px;
+  margin-top: 80px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+}
+.img-para{
+  padding: 0 117px;
+}
+.img-cont-2{
+  display: flex;
+  margin-top: 100px;
+  background-color: white;
+  margin-bottom: 10px;
+}
+.rev-margin{
+  margin-top: -10px;
+}
+.container-3{
+  background-color: white;
+  margin-top: -35px;
+}
+.context{
+  margin-left: 20px;
+  margin-left: 111px;
+  font-size: 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+  padding-top: 108px;
+    padding-left: 73px;
+}
+.section-3{
+  margin-top: 20px;
+}
+.context-para{
+  margin-left: 194px;
+    padding-right: 880px;
+    color: #474b4f;
+    font-weight: 400;
+    font-family: "Roboto";
+    font-size: 19px;
+    letter-spacing: .0313em;
+}
+.section-title{
+  margin-bottom: 8px;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.5715;
+    overflow-wrap: break-word;
+    letter-spacing: .1786em;
+    text-transform: uppercase;
+    margin-left: 219px;
+    margin-top: 45px;
+}
+.section-para{
+  padding-left: 214px;
+  color: #474b4f;
+  font-weight: 400;
+  font-family: "Roboto";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.5;
+    overflow-wrap: break-word;
+    letter-spacing: .0313em;
+}
+.section-4{
+  display: flex;
+}
+.image_5{
+  margin-left: 308px;
+  height: 830px;
+  width: 708px;
+}
+.sections-3{
+  margin-top: 105px;
+}
+.btn-margin{
+  margin-left: 208px;
+}
+.extra{
+  margin-left: 642px;
+    margin-top: -110px;
+}
+.extra-para{
+  padding: 0px 430px;
+    margin-left: 38px;
+}
+.image_6{
+  margin-left: 180px;
+    margin-top: 25px;
+}
+.bt-extra{
+  margin-left: 650px;
+}
+.left-mrg{
+  margin-left: 415px;
+}
+.image_7{
+  margin-left: 200px;
+    margin-top: 30px;
+}
+.pret{
+  font-size: 52px;
+  font-weight: 500;
+}
+.section-6{
+  background-color: #f5f8fb;
+}
+.space2{
+  margin-left: 400px;
+}
+.question{
+  font-size: 25px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 550;
+  margin-left: 346px;
+  margin-top: 70px;
+}
+.image_8{
+  width: 100%;
+    margin-top: 60px;
+}
+.footer{
+  margin-top: 100px;
+  margin-left: 70px;
+}
+.foot-section{
+  display: flex;
+  margin: 0 50px;
+}
+.foot-sub-sections{
+  padding: 0 51px;
+}
+.bold{
+  font-weight: 700;
+}
+.line{
+  height: 1px;
+  background-color: #dde1e6;
+}
+
+
+
+
+
+
+
+
+
+
+/* .head {
+  background-color: #f5536f;
+  min-height: 100vh;
+} */
+/* 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +312,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
